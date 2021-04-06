@@ -1,0 +1,146 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-left: 6px;
+   
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+}
+
+li {
+    padding: 12px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #77a466;
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+/***** SECTION ABOUT *****/
+
+img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+#about h2 {
+    color: #77a466;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 3px;
+}
+
+#about p {
+    padding-left: 5px;
+    padding-right: 30px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+/***** BOTTOM SECTION *****/
+
+#bottom-thirds .full-width{
+
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    box-sizing: border-box;
+}
+
+#specials {
+    padding: 10px;
+}
+
+#specials h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#specials p {
+    color: #77a466;
+    font-size: 16px;
+}
+
+#reviews {
+    width: 398px;
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#reviews h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#contact {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+#contact h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#contact address {
+    line-height: 24px;
+}
+
+/***** FOOTER *****/
+
+footer {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+footer h2 span {
+    font-family: galada;
+    color: #77a466;
+    text-transform: lowercase;
+    font-weight: 200;
+}
